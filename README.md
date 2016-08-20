@@ -31,7 +31,8 @@ pic.png
  
  ![exPicb.png](exPicb.png)
  
- I your onCreate
+In your onCreate
+
 ```
         ViewPager viewPager = (ViewPager) findViewById(R.id.viewPager);
         Adapter adapter = new Adapter(getSupportFragmentManager());
