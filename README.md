@@ -21,6 +21,32 @@ I your onCreate
 
 ![default](default.gif)
 
+or you cat put in your drawable folder image and use them. For example:
+
+pic.png
+
+![exPic.png](exPic.png)
+
+ and picb.png
+ 
+ ![exPicb.png](exPicb.png)
+ 
+ I your onCreate
+```
+        ViewPager viewPager = (ViewPager) findViewById(R.id.viewPager);
+        Adapter adapter = new Adapter(getSupportFragmentManager());
+        viewPager.setAdapter(adapter);
+
+        VPIndicator indicator = (VPIndicator) findViewById(R.id.viewPagerIndicator);
+        indicator.setParams(viewPager, R.drawable.picb, R.drawable.pic);
+```
+
+ ![custome1.gif](custome1.gif)
+ 
+ You can use any image
+ 
+ ![custome2.gif](custome2.gif)
+
 # Download
 Maven:
 ```
@@ -50,3 +76,6 @@ dependencies {
     compile 'com.android.support:appcompat-v7:24.2.0'
 }
 ```
+
+# Author
+Mikalai Hembitski
