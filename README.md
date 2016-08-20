@@ -9,7 +9,7 @@ In your layout
         android:layout_width="wrap_content"
         android:layout_height="20dp" />
 ```
-I your onCreate
+In your onCreate
 ```
         ViewPager viewPager = (ViewPager) findViewById(R.id.viewPager);
         Adapter adapter = new Adapter(getSupportFragmentManager());
