@@ -1,7 +1,25 @@
 # Android ViewPager Indicator
 Lightweight library to display Android ViewPager indicator with custome images.
 
+#How to use
+In your layout
+```
+<com.hembitski.hmviewpagerindicator.VPIndicator
+        android:id="@+id/viewPagerIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp" />
+```
+I your onCreate
+```
+        ViewPager viewPager = (ViewPager) findViewById(R.id.viewPager);
+        Adapter adapter = new Adapter(getSupportFragmentManager());
+        viewPager.setAdapter(adapter);
 
+        VPIndicator indicator = (VPIndicator) findViewById(R.id.viewPagerIndicator);
+        indicator.setParams(viewPager);
+```
+
+![default](default.gif)
 
 # Download
 Maven:
