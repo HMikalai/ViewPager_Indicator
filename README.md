@@ -66,12 +66,6 @@ Maven:
 
 Or use Gradle:
 ```
-repositories {
-        maven {
-            url 'https://dl.bintray.com/mikalai/maven'
-        }
-    }
-    
 dependencies {
     compile 'com.github.hmikalai:hmvpindicator:1.0.1'
     compile 'com.android.support:appcompat-v7:24.2.0'
