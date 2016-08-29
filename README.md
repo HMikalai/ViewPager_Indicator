@@ -47,6 +47,14 @@ In your onCreate
  You can use any image
  
  ![custome2.gif](custome2.gif)
+ 
+# What new
+
+You can disable touch mode
+
+```
+        indicator.setTouchMode(false);
+```
 
 # Download
 Maven:
@@ -54,7 +62,7 @@ Maven:
 <dependency>
   <groupId>com.github.hmikalai</groupId>
   <artifactId>hmvpindicator</artifactId>
-  <version>1.0.1</version>
+  <version>1.1.1</version>
   <type>pom</type>
 </dependency>
 <dependency>
@@ -67,7 +75,7 @@ Maven:
 Or use Gradle:
 ```
 dependencies {
-    compile 'com.github.hmikalai:hmvpindicator:1.0.1'
+    compile 'com.github.hmikalai:hmvpindicator:1.1.1'
     compile 'com.android.support:appcompat-v7:24.2.0'
 }
 ```
