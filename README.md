@@ -21,7 +21,7 @@ In your onCreate
 
 ![default](default.gif)
 
-or you cat put in your drawable folder image and use them. For example:
+or you can put in your drawable folder images and use them. For example:
 
 pic.png
 
